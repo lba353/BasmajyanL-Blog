@@ -1,0 +1,2 @@
+<?php
+    $path = "/BasmajyanL-Blog/";
