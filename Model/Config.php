@@ -1,6 +1,7 @@
 <?php
     require_once(__DIR__ . "/Database.php");
     session_start();
+    session_regenerate_id(true); //One way to prevent hackers from using hackers to hijack the session.
     
     $path = "/BasmajyanL-Blog/";
     
