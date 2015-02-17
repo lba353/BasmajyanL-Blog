@@ -1,12 +1,22 @@
 <html>
     <head>
+        <title>Ludvig's Blog Post</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-        <title></title>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="navbar nav-tabs">
+                        <li><a class="index" href="index.php">Home</a></li> 
+                        <li><a class="post" href="Post.php">Post</a></li>
+                        <li><a class="register" href="Register.php">Register User</a></li> 
+                        <li><a class="login" href="Login.php">Login User</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </head>
     <body>
