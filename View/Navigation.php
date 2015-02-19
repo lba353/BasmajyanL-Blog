@@ -1,6 +1,6 @@
 <?php
     require_once (__DIR__ . "/../Model/Config.php");
-    require_once(__DIR__ . "/../Controller/Login-Verify.php");
+    require_once (__DIR__ . "/../Controller/Login-Verify.php");
     
     if (!authenticateUser()) {
         header("Location: " . $path . "index.php");

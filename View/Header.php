@@ -9,7 +9,7 @@
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="navbar nav-tabs">
+                    <ul class="nav navbar-nav">
                         <li><a class="index" href="index.php">Home</a></li> 
                         <li><a class="post" href="Post.php">Post</a></li>
                         <li><a class="register" href="Register.php">Register User</a></li> 
@@ -19,4 +19,3 @@
             </div>
         </nav>
     </head>
-    <body>

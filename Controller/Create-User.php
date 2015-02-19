@@ -1,5 +1,7 @@
 <?php
+    require_once (__DIR__ . "/../View/Header.php");
     require_once(__DIR__ . "/../Model/Config.php");
+    require_once (__DIR__ . "/../View/Footer.php");
     
     $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);

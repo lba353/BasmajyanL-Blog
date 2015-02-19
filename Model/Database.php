@@ -2,6 +2,7 @@
 
 class Database {
 
+    //Sets the variables for either private or public.
     private $connection;
     private $host;
     private $username;
@@ -9,6 +10,7 @@ class Database {
     private $database;
     public $error;
 
+    //Sets the function construct which can be used anywhere in the pages.
     public function __construct($host, $username, $password, $database) {
         $this->host = $host;
         $this->username = $username;
@@ -34,6 +36,7 @@ class Database {
         }
     }
 
+    //Open the connection.
     public function openConnection() {
         $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
 
@@ -42,12 +45,14 @@ class Database {
         }
     }
 
+    //Closes the connection.
     public function closeConnection() {
         if (isset($this->connection)) {
             $this->connection->close();
         }
     }
 
+    //Sets  the query funtion that has the parameter string.
     public function query($string) {
         $this->openConnection();
 
