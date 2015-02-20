@@ -16,6 +16,7 @@
         
         if($row["password"] === crypt($password , $row["salt"])) {
             $_SESSION["authenticated"] = true;
+            header("Location: " . $path . "index.php");
             echo "<p>Login successful!</p>";
         }
         else {
