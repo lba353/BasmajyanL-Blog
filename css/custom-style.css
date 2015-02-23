@@ -8,6 +8,9 @@
 
 .post {
     background-color: skyblue;
+    border-style: groove;
+    border-color: greenyellow;
+    border-width: thick;
 }
 
 .post h2 {

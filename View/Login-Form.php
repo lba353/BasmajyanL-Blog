@@ -2,9 +2,9 @@
     require_once (__DIR__ . "/../Model/Config.php");
 ?>
 
-<h1>Login</h1>
+<h1 align="center">Login</h1>
 
-<form method="post" action="<?php echo $path . "Controller/Login-User.php"; ?>">
+<form align="center" method="post" action="<?php echo $path . "Controller/Login-User.php"; ?>">
     <div>
         <label for="username">Username: </label>
         <input type="text" name="username" />

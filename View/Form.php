@@ -10,9 +10,9 @@
     }
 ?>
 
-<h1>Create Blog Post</h1>
+<h1 align="center">Create Blog Post</h1>
 
-<form method="post" action="<?php echo $path . "Controller/Create-Post.php"; ?>">
+<form align="center" method="post" action="<?php echo $path . "Controller/Create-Post.php"; ?>">
     <div>
         <label for="title">Title: </label>
         <input type="text" name="title" />
