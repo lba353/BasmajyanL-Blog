@@ -3,13 +3,14 @@
     
     $query = "SELECT * FROM posts";
     $result = $_SESSION["connection"]->query($query);
+    $today = date("M-j-Y, g:i");
     
     if($result) {
         while($row = mysqli_fetch_array($result)) {
-            echo "<div class='post'>";
+            echo "<div class='post'>" ;
             echo "<h2>" . $row['title'] . "</h2>";
             echo "<br />";
-            echo "<p>" . $row['post'] . "</p>";
+            echo "<p>" . $row['post'] . $today . "</p>";
             echo "<br />";
             echo "</div>";
         }

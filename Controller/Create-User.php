@@ -11,15 +11,21 @@
     
     $hashedPassword = crypt($password, $salt);
     
-    $query = $_SESSION["connection"]->query("INSERT INTO users SET "
+   $query = $_SESSION["connection"]->query("SELECT username FROM users WHERE BINARY username = '$username'"); 
+  
+    if($query) {
+        if($query->num_rows == 0) {
+           $query2 = $_SESSION["connection"]->query("INSERT INTO users SET "
             . "email = '$email',"
             . "username = '$username',"
             . "password = '$hashedPassword',"
             . "salt = '$salt'");
-    
-    if($query) {
-        echo "Successfully created user: $username";
-    }
+           echo "Successfully created user: $username";
+       }
+       else {
+           echo "Username already exists";
+       }
+   }
     else {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
     }

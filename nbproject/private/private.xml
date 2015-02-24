@@ -5,13 +5,12 @@
         <group>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Footer.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Login.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Model/Database.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Header.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/css/custom-style.css</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Create-Post.php</file>
-            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/index.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Form.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Read-Posts.php</file>
-            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Navigation.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Login-User.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Create-User.php</file>
         </group>
