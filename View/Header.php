@@ -12,8 +12,9 @@
                     <ul class="nav navbar-nav">
                         <li><a class="index" href="index.php">Home</a></li> 
                         <li><a class="posts" href="Post.php">Post</a></li>
-                        <li><a class="register" href="Register.php">Register User</a></li> 
+                        <li><a class="register" href="Register.php">Register User</a></li>
                         <li><a class="login" href="Login.php">Login User</a></li>
+                        <li><a class="logout" href="Logout-User.php">Logout User</a></li>
                     </ul>
                 </div>
             </div>

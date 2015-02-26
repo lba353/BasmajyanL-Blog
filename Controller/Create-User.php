@@ -11,7 +11,7 @@
     
     $hashedPassword = crypt($password, $salt);
     
-   $query = $_SESSION["connection"]->query("SELECT username FROM users WHERE BINARY username = '$username'"); 
+    $query = $_SESSION["connection"]->query("SELECT username FROM users WHERE BINARY username = '$username'"); 
   
     if($query) {
         if($query->num_rows == 0) {
@@ -20,12 +20,15 @@
             . "username = '$username',"
             . "password = '$hashedPassword',"
             . "salt = '$salt'");
+           header("Location: " . $path . "index.php");
            echo "Successfully created user: $username";
        }
        else {
+           header("Location: " . $path . "index.php");
            echo "Username already exists";
        }
    }
     else {
+        header("Location: " . $path . "index.php");
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
     }
