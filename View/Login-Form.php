@@ -4,6 +4,7 @@
 
 <h1 align="center">Login</h1>
 
+<!-- The following lines of code are the setup of logging into the blog.-->
 <form align="center" method="post" action="<?php echo $path . "Controller/Login-User.php"; ?>">
     <div>
         <label for="username">Username: </label>

@@ -4,12 +4,14 @@
     require_once (__DIR__ . "/../Controller/Login-Verify.php");
     require_once (__DIR__ . "/../View/Footer.php");
     
+    //If you are not logged in, you will be redirected to the index.
     if (!authenticateUser()) {
         header("Location: " . $path . "index.php");
         die();
     }
 ?>
 
+<!-- The following lines of code are the setup of posting a blog.-->
 <h1 align="center">Create Blog Post</h1>
 
 <form align="center" method="post" action="<?php echo $path . "Controller/Create-Post.php"; ?>">

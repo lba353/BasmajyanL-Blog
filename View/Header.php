@@ -1,3 +1,4 @@
+<!-- Header for style and navigation purposes. -->
 <html>
     <head>
         <title>Ludvig's Blog Post</title>

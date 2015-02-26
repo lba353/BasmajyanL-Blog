@@ -1,3 +1,4 @@
+/*Changes the navbar's background, font size, and border.*/
 .navbar{
     background: skyblue;
     font-size: x-large;
@@ -6,6 +7,7 @@
     border-width: thick;
 }
 
+/*Similar to the navbar*/
 .post {
     background-color: skyblue;
     border-style: groove;
@@ -13,10 +15,12 @@
     border-width: thick;
 }
 
+/*Changes the header's color of posts.*/
 .post h2 {
     color: red;
 }
 
+/*Changes the text's color of the posts */
 .post p {
-    color: gold;
+    color: yellow;
 }

@@ -4,6 +4,7 @@
 
 <h1 align="center">Register</h1>
 
+<!-- The following lines of code are the setup of registering a user.-->
 <form align="center" method="post" action="<?php echo $path . "Controller/Create-User.php"; ?>">
     <div>
         <label for="email">Email: </label>

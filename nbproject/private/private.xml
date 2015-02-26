@@ -3,17 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Register.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Logout-User.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Login-Form.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Form.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Register-Form.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Read-Posts.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Post.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Login-User.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Create-User.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Model/Config.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Footer.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Login.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Create-DB.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Header.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/css/custom-style.css</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Create-Post.php</file>
-            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/View/Form.php</file>
-            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Read-Posts.php</file>
-            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Login-User.php</file>
+            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/index.php</file>
             <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Login-Verify.php</file>
-            <file>file:/C:/xampp/htdocs/BasmajyanL-Blog/Controller/Create-User.php</file>
         </group>
     </open-files>
 </project-private>
